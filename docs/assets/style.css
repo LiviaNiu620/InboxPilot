@@ -414,3 +414,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 :root[data-theme="dark"] .stage--waiting { color: var(--amber); }
 @media (prefers-color-scheme: dark) { :root:where(:not([data-theme="light"])) .stage--waiting { color: var(--amber); } }
 :root[lang="zh-CN"] .mail-action::before, html[lang="zh-CN"] .mail-action::before { content: "要做："; }
+.persona { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.persona-label { font-size: var(--step--1); color: var(--ink-3); margin-right: 2px; }
+.persona .tab[aria-pressed="true"] { background: var(--sign); color: #fff; border-color: var(--sign); }
+.topbar-actions { flex-wrap: wrap; justify-content: flex-end; }

@@ -12,7 +12,7 @@ and a tidy inbox — with marketing mail archived **only after you approve**.
 
 <img src="docs/screenshots/dashboard-en.png" alt="InboxPilot dashboard (fictional demo data)" width="900">
 
-<sub>Everything in the screenshots is fictional demo data.</sub>
+<sub>Everything in the screenshots is fictional demo data. The live demo lets you switch between an undergrad, a master's student and a PhD student.</sub>
 
 </div>
 
@@ -75,7 +75,7 @@ flowchart LR
 |---|---|---|
 | **A** Auto-archive + tell you | Archived, labelled `Auto-archived`, counted in the digest | Social notifications, job alerts, old receipts, expired login codes |
 | **B** Archive after approval | Labelled `Pending-archive`, stays in inbox until the evening run | Promotions, sales, bulk newsletters |
-| **C** Keep + report | Stays, gets a full line in the digest, `To-do` if action is needed | Your boss/advisor, personal mail, admin forms, recruiters, invitations |
+| **C** Keep + report | Stays, gets a full line in the digest, `To-do` if action is needed | Professors, managers, recruiters, financial aid, personal mail, invitations |
 | **D** Keep, one line | Stays, one line in the digest | Org-wide notices, digests that need nothing from you |
 
 Your rules live in one Markdown file that Claude fills in with you during setup
@@ -99,7 +99,7 @@ InboxPilot is deliberately conservative ([full rules](agent/safety.md)):
 A static page (`docs/`) that renders what the agent writes to `data/dashboard.json`: today's
 must-dos with countdowns, a 7-day deadline runway, to-dos, new mail by category, tracked threads
 (reviews, applications, orders…), what's waiting for approval, what was archived, and a 14-day
-trend. English / 中文, light / dark, works on phones.
+trend. English / 中文, light / dark, works on phones. The demo comes with three made-up personas — [undergrad](https://livianiu620.github.io/InboxPilot/?demo&persona=undergrad), [master's](https://livianiu620.github.io/InboxPilot/?demo&persona=master) and [PhD](https://livianiu620.github.io/InboxPilot/?demo&persona=phd).
 
 Because it shows real email summaries, deploy your copy **privately** (e.g. Cloudflare Pages +
 Cloudflare Access). Claude walks you through it — see [`agent/dashboard.md`](agent/dashboard.md).

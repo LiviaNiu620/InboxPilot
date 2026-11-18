@@ -1,0 +1,454 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-17T07:55:00-08:00",
+  "next_update": "2026-11-17T09:53:00-08:00",
+  "report_type": "morning",
+  "persona": "phd",
+  "labels": {
+    "todo": "InboxPilot/To-do",
+    "pending": "InboxPilot/Pending-archive",
+    "archived": "InboxPilot/Auto-archived"
+  },
+  "category_order": [
+    "Advisor & lab",
+    "Collaborators",
+    "Papers & journals",
+    "Conferences",
+    "Teaching",
+    "Department",
+    "Funding",
+    "Seminars & notices"
+  ],
+  "stats": {
+    "inbox_total": 468,
+    "inbox_unread": 33,
+    "new_today": 22,
+    "todo_open": 7,
+    "pending_archive": 5,
+    "auto_archived_today": 15
+  },
+  "urgent": [
+    {
+      "title": "Return revised manuscript to Journal of Neural Circuits",
+      "detail": "Revision window closes tonight",
+      "category": "Papers & journals",
+      "due": "2026-11-17T23:59:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Post Bio 210 midterm grades",
+      "detail": "Professor wants them before section tomorrow",
+      "category": "Teaching",
+      "due": "2026-11-17T18:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Confirm qualifying-exam date",
+      "detail": "Committee poll closes today",
+      "category": "Department",
+      "due": "2026-11-17T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Submit revision + response letter",
+      "category": "Papers & journals",
+      "due": "2026-11-17T23:59:00-08:00",
+      "status": "open",
+      "source": "Journal of Neural Circuits",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Upload Bio 210 grades",
+      "category": "Teaching",
+      "due": "2026-11-17T18:00:00-08:00",
+      "status": "open",
+      "source": "Prof. Grace Osei",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Vote in quals date poll",
+      "category": "Department",
+      "due": "2026-11-17T17:00:00-08:00",
+      "status": "open",
+      "source": "Grad coordinator",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Book confocal microscope time",
+      "category": "Advisor & lab",
+      "due": "2026-11-18T12:00:00-08:00",
+      "status": "open",
+      "source": "Lab manager",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Poster abstract for neuroscience meeting",
+      "category": "Conferences",
+      "due": "2026-11-21T17:00:00-08:00",
+      "status": "open",
+      "source": "NeuroMeet 2027",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Send co-author the new figure 3",
+      "category": "Collaborators",
+      "status": "open",
+      "source": "Dr. Tomas Berg",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Animal-protocol training renewal",
+      "category": "Department",
+      "due": "2026-11-15T17:00:00-08:00",
+      "status": "overdue",
+      "source": "Research compliance",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Order antibodies",
+      "category": "Advisor & lab",
+      "status": "done",
+      "source": "Lab manager",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "agenda": [
+    {
+      "start": "2026-11-17T11:00:00-08:00",
+      "title": "Bio 210 section (TA)",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T17:00:00-08:00",
+      "title": "Quals poll",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T23:59:00-08:00",
+      "title": "Manuscript revision",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T09:30:00-08:00",
+      "title": "Lab meeting",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T14:00:00-08:00",
+      "title": "Microscope session",
+      "type": "meeting",
+      "in_calendar": false,
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "start": "2026-11-19T16:00:00-08:00",
+      "title": "Neuro seminar",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-20T11:00:00-08:00",
+      "title": "Bio 210 section (TA)",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-21T17:00:00-08:00",
+      "title": "Poster abstract",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-22T10:00:00-08:00",
+      "title": "1:1 with Prof. Morales",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "new_mail": [
+    {
+      "category": "Advisor & lab",
+      "from": "Prof. David Morales",
+      "subject": "Response letter looks good",
+      "summary": "Two small edits to reviewer 2; then submit.",
+      "action": "Submit tonight",
+      "received": "2026-11-17T05:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Advisor & lab",
+      "from": "Lab manager",
+      "subject": "Confocal booking for Wednesday",
+      "summary": "Two slots left; first come first served.",
+      "action": "Book by tomorrow noon",
+      "received": "2026-11-16T22:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Collaborators",
+      "from": "Dr. Tomas Berg",
+      "subject": "Figure 3 colours",
+      "summary": "Asks for a colour-blind-safe palette.",
+      "action": "Send updated figure",
+      "received": "2026-11-16T19:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Papers & journals",
+      "from": "Journal of Neural Circuits",
+      "subject": "Reminder: revision due",
+      "summary": "JNC-2026-0771",
+      "action": "Submit tonight",
+      "received": "2026-11-17T03:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Papers & journals",
+      "from": "Cell Methods Letters",
+      "subject": "Invitation to review",
+      "summary": "Calcium-imaging pipeline; 14-day window.",
+      "action": "Accept or decline",
+      "received": "2026-11-16T16:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Conferences",
+      "from": "NeuroMeet 2027",
+      "subject": "Abstract submission closes Saturday",
+      "summary": "Poster or short talk; 250 words.",
+      "received": "2026-11-16T12:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Teaching",
+      "from": "Prof. Grace Osei",
+      "subject": "Midterm grades by 6 pm",
+      "summary": "Use the curve we discussed.",
+      "action": "Upload grades",
+      "received": "2026-11-17T02:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Teaching",
+      "from": "Student (Bio 210)",
+      "subject": "Regrade request Q4",
+      "summary": "Asks to look at partial credit.",
+      "received": "2026-11-17T00:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Department",
+      "from": "Grad coordinator",
+      "subject": "Quals date poll",
+      "summary": "Three dates in January.",
+      "action": "Vote today",
+      "received": "2026-11-16T09:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Funding",
+      "from": "Graduate School",
+      "subject": "Travel grant applications open",
+      "summary": "Up to $800 for presenting students.",
+      "received": "2026-11-16T14:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Seminars & notices",
+      "from": "Neuro program",
+      "subject": "Seminar: sleep and memory",
+      "summary": "Thursday 4 pm, Auditorium A.",
+      "received": "2026-11-16T21:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "tracking": [
+    {
+      "type": "Revision",
+      "item": "JNC-2026-0771",
+      "detail": "Our paper · major revision",
+      "status": "Due today",
+      "state": "late",
+      "due": "2026-11-17T23:59:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "Review",
+      "item": "CML-26-1180",
+      "detail": "Calcium-imaging pipeline",
+      "status": "Invitation — reply needed",
+      "state": "waiting",
+      "due": "2026-11-20T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "Abstract",
+      "item": "NeuroMeet 2027",
+      "detail": "Poster",
+      "status": "Drafting",
+      "state": "active",
+      "due": "2026-11-21T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "Grant",
+      "item": "Travel grant",
+      "detail": "",
+      "status": "Not started",
+      "state": "waiting",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "Order",
+      "item": "Antibodies",
+      "detail": "",
+      "status": "Delivered",
+      "state": "done",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "pending_archive": [
+    {
+      "from": "LabSupply Co.",
+      "subject": "Year-end pipette sale",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Society eNews",
+      "subject": "November member digest",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "SciPublish",
+      "subject": "Call for papers (special issue)",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Webinar Hub",
+      "subject": "Free webinar: imaging tips",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "CloudNote",
+      "subject": "Upgrade to Pro",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "auto_archived": {
+    "today_total": 15,
+    "by_source": [
+      {
+        "source": "Research-site digests",
+        "count": 5
+      },
+      {
+        "source": "Calendar digests",
+        "count": 3
+      },
+      {
+        "source": "Social notifications",
+        "count": 3
+      },
+      {
+        "source": "Receipts",
+        "count": 2
+      },
+      {
+        "source": "Old login codes",
+        "count": 2
+      }
+    ]
+  },
+  "suspicious": [
+    {
+      "from": "editor@journal-neural-circuits.example",
+      "subject": "Pay APC to avoid rejection",
+      "reason": "Look-alike journal domain asking for payment"
+    }
+  ],
+  "calendar_added": [
+    {
+      "title": "[Due] Poster abstract",
+      "when": "2026-11-21T17:00:00-08:00",
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-04T12:00:00-08:00",
+      "important": 8,
+      "other": 26
+    },
+    {
+      "date": "2026-11-05T12:00:00-08:00",
+      "important": 10,
+      "other": 24
+    },
+    {
+      "date": "2026-11-06T12:00:00-08:00",
+      "important": 6,
+      "other": 15
+    },
+    {
+      "date": "2026-11-07T12:00:00-08:00",
+      "important": 4,
+      "other": 11
+    },
+    {
+      "date": "2026-11-08T12:00:00-08:00",
+      "important": 9,
+      "other": 29
+    },
+    {
+      "date": "2026-11-09T12:00:00-08:00",
+      "important": 11,
+      "other": 25
+    },
+    {
+      "date": "2026-11-10T12:00:00-08:00",
+      "important": 8,
+      "other": 22
+    },
+    {
+      "date": "2026-11-11T12:00:00-08:00",
+      "important": 7,
+      "other": 27
+    },
+    {
+      "date": "2026-11-12T12:00:00-08:00",
+      "important": 10,
+      "other": 26
+    },
+    {
+      "date": "2026-11-13T12:00:00-08:00",
+      "important": 5,
+      "other": 14
+    },
+    {
+      "date": "2026-11-14T12:00:00-08:00",
+      "important": 3,
+      "other": 9
+    },
+    {
+      "date": "2026-11-15T12:00:00-08:00",
+      "important": 9,
+      "other": 31
+    },
+    {
+      "date": "2026-11-16T12:00:00-08:00",
+      "important": 12,
+      "other": 27
+    },
+    {
+      "date": "2026-11-17T12:00:00-08:00",
+      "important": 8,
+      "other": 12
+    }
+  ]
+}

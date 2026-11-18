@@ -18,72 +18,77 @@ bold). Each item links to the Gmail thread. Write in the user's language.
 Quick updates: only sections with something new. If nothing important arrived: a single line
 ("Nothing new that needs you. 6 archived.").
 
-## English example
+## English example (fictional master's student)
 
 ```
 [InboxPilot] Morning report · Tue Nov 17 · 3 need action
 
 NEEDS YOU TODAY
-• Submit review JUM-2026-0418 — due tonight 23:59
-• Reply to Prof. Rivera with convergence plots — by 17:00
-• Pick a phone-screen slot with Northwind Labs (Thu 10:00 / Fri 14:00)
+• Finish Kestrel AI online assessment — link expires tonight 23:59
+• Pick a phone-screen slot with Brightline (Wed 10:00 / Thu 14:00) — reply by 18:00
+• Send cleaned capstone dataset to Dr. Singh — by Wed noon
 
 TO-DOS (7 open · 1 overdue)
-! Book lab-safety training — 2 days overdue
-• Renew tax-treaty form — tomorrow 17:00
-• Fellowship statement — Fri 17:00
+! Internship CPT form — 1 day overdue
+• ML homework 6 — Fri 23:59
+• Update resume for career fair — Sat 09:00
 …
 
 NEW MAIL
-Advisor & collaborators
-• Dr. Sam Okafor — 12 comments on section 4, two need new runs → before Fri 1:1
-Jobs
-• Bluepeak Analytics — application received (no action)
+Interviews
+• Orbitly — final round Monday 1 pm, three 45-min interviews incl. a case
+Applications
+• Vantage Retail — not moving forward (no action)
+Personal
+• Ken Liu — offers a referral at Brightline → send him your resume
 …
 
 NEXT 7 DAYS
-Wed 13:30 Group meeting · Thu 10:00 Northwind phone screen (not in calendar) · Sun Conference abstract due
+Wed 10:00 Brightline phone screen (not in calendar) · Thu 15:00 Capstone check-in · Sat 10:00 Tech career fair
 
 WAITING FOR YOUR APPROVAL (6) — remove “InboxPilot/Pending-archive” to keep
-Campus Store · Athletics · MileHigh Rewards · Society eNews · CloudNote · Foodly
+CodePrep Pro · JobBoard Weekly · Campus Store · DataCon 2027 · Foodly · CloudNote
 
-ARCHIVED FOR YOU (17)
-Social 5 · Job alerts 4 · Receipts 3 · Calendar digests 2 · Login codes 2 · Research sites 1
+ARCHIVED FOR YOU (31)
+Job alerts 12 · Social 8 · Application auto-replies 5 · Receipts 3 · Login codes 3
 
 ⚠ SUSPICIOUS
-it-helpdesk@northfield-help.example — "Your mailbox will be closed" — look-alike sender, asks for password. Not archived; don't click.
+hr-team@brightline-careers.example — "Offer letter — pay $85 for equipment" — fake recruiter domain asking for money. Not archived; don't click.
 
 Next update 09:53 · To change a rule, just tell Claude.
 ```
 
-## 中文示例
+## 中文示例（虚构的本科生）
 
 ```
 [InboxPilot] 晨报 · 11月17日 周二 · 3 件要处理
 
 今天必须处理
-• 提交审稿意见 JUM-2026-0418 — 今晚 23:59 截止
-• 给 Rivera 教授发收敛曲线 — 17:00 前
-• 选 Northwind Labs 电话面试时间（周四 10 点 / 周五 14 点）
+• 心理学导论实验报告 — 今晚 23:59 截止
+• 提交助学金核验表 — 17:00 前，不交春季助学金会暂停
+• 回复周四图书馆换班 — 今晚前
 
-待办（7 项 · 1 项逾期）
-! 预约实验室安全培训 — 逾期 2 天
-• 更新税务协定表 — 明天 17:00
+待办（6 项 · 1 项逾期）
+! 还逾期的图书 — 逾期 1 天
+• 春季选课 — 周四 9:00 开放
+• 交换项目申请文书 — 周日 17:00
 …
 
 新邮件
-导师/合作者
-• Sam Okafor — 第 4 节 12 条意见，两条要重跑 → 周五 1:1 前
+老师/助教
+• Hannah Kim 教授 — 图表可以放附录，正文还是 5 页上限
+朋友/家人
+• 妈妈 — 问你哪天回家 → 有空回复
 …
 
-等你批准归档（6）— 想保留就去掉“InboxPilot/待归档”标签
-Campus Store · Athletics · MileHigh Rewards · …
+等你批准归档（8）— 想保留就去掉“InboxPilot/待归档”标签
+Campus Store · Athletics · Foodly · StreamBox · …
 
-已帮你归档（17）
-社交通知 5 · 职位推送 4 · 订单收据 3 · …
+已帮你归档（23）
+社交通知 9 · 课程平台推送 6 · 订单收据 4 · 验证码 3 · 群聊摘要 1
 
 ⚠ 可疑邮件
-it-helpdesk@northfield-help.example —“你的邮箱将被关闭”— 仿冒发件人要密码，未归档，别点链接。
+payroll@campus-jobs-portal.example —“立即更新工资账户”— 不是学校真正的发薪邮箱，要银行登录信息，没归档，别点。
 
 下次更新 09:53 · 想改规则，直接跟 Claude 说。
 ```

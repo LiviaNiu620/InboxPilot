@@ -1,0 +1,454 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-17T07:55:00-08:00",
+  "next_update": "2026-11-17T09:53:00-08:00",
+  "report_type": "morning",
+  "persona": "phd",
+  "labels": {
+    "todo": "InboxPilot/待办",
+    "pending": "InboxPilot/待归档",
+    "archived": "InboxPilot/已自动归档"
+  },
+  "category_order": [
+    "导师/实验室",
+    "合作者",
+    "论文/期刊",
+    "会议",
+    "助教",
+    "院系事务",
+    "经费/奖学金",
+    "讲座/通知"
+  ],
+  "stats": {
+    "inbox_total": 468,
+    "inbox_unread": 33,
+    "new_today": 22,
+    "todo_open": 7,
+    "pending_archive": 5,
+    "auto_archived_today": 15
+  },
+  "urgent": [
+    {
+      "title": "向《神经环路》返回修改稿",
+      "detail": "修改期限今晚截止",
+      "category": "论文/期刊",
+      "due": "2026-11-17T23:59:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "上传 Bio 210 期中成绩",
+      "detail": "教授要求明天讨论课前上传",
+      "category": "助教",
+      "due": "2026-11-17T18:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "确认资格考日期",
+      "detail": "委员会投票今天截止",
+      "category": "院系事务",
+      "due": "2026-11-17T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "todos": [
+    {
+      "title": "提交修改稿和回复信",
+      "category": "论文/期刊",
+      "due": "2026-11-17T23:59:00-08:00",
+      "status": "open",
+      "source": "《神经环路》",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "上传 Bio 210 成绩",
+      "category": "助教",
+      "due": "2026-11-17T18:00:00-08:00",
+      "status": "open",
+      "source": "Prof. Grace Osei",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "资格考日期投票",
+      "category": "院系事务",
+      "due": "2026-11-17T17:00:00-08:00",
+      "status": "open",
+      "source": "研究生秘书",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "预约共聚焦显微镜机时",
+      "category": "导师/实验室",
+      "due": "2026-11-18T12:00:00-08:00",
+      "status": "open",
+      "source": "实验室管理员",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "神经科学年会海报摘要",
+      "category": "会议",
+      "due": "2026-11-21T17:00:00-08:00",
+      "status": "open",
+      "source": "NeuroMeet 2027",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "给合作者发新版图 3",
+      "category": "合作者",
+      "status": "open",
+      "source": "Dr. Tomas Berg",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "动物实验培训续期",
+      "category": "院系事务",
+      "due": "2026-11-15T17:00:00-08:00",
+      "status": "overdue",
+      "source": "科研合规办公室",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "订抗体",
+      "category": "导师/实验室",
+      "status": "done",
+      "source": "实验室管理员",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "agenda": [
+    {
+      "start": "2026-11-17T11:00:00-08:00",
+      "title": "Bio 210 讨论课（助教）",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T17:00:00-08:00",
+      "title": "资格考投票",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T23:59:00-08:00",
+      "title": "论文修改稿",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T09:30:00-08:00",
+      "title": "组会",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T14:00:00-08:00",
+      "title": "显微镜机时",
+      "type": "meeting",
+      "in_calendar": false,
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "start": "2026-11-19T16:00:00-08:00",
+      "title": "神经科学讲座",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-20T11:00:00-08:00",
+      "title": "Bio 210 讨论课（助教）",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-21T17:00:00-08:00",
+      "title": "海报摘要",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-22T10:00:00-08:00",
+      "title": "和 Morales 教授 1:1",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "new_mail": [
+    {
+      "category": "导师/实验室",
+      "from": "Prof. David Morales",
+      "subject": "回复信没问题",
+      "summary": "回复审稿人 2 的地方改两处就可以提交。",
+      "action": "今晚提交",
+      "received": "2026-11-17T05:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "导师/实验室",
+      "from": "实验室管理员",
+      "subject": "周三共聚焦显微镜预约",
+      "summary": "只剩两个时段，先到先得。",
+      "action": "明天中午前预约",
+      "received": "2026-11-16T22:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "合作者",
+      "from": "Dr. Tomas Berg",
+      "subject": "图 3 配色",
+      "summary": "希望换成色盲友好的配色。",
+      "action": "发新版图",
+      "received": "2026-11-16T19:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "论文/期刊",
+      "from": "《神经环路》",
+      "subject": "提醒：修改稿到期",
+      "summary": "JNC-2026-0771",
+      "action": "今晚提交",
+      "received": "2026-11-17T03:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "论文/期刊",
+      "from": "《细胞方法快报》",
+      "subject": "审稿邀请",
+      "summary": "钙成像分析流程，审稿期 14 天。",
+      "action": "接受或拒绝",
+      "received": "2026-11-16T16:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "会议",
+      "from": "NeuroMeet 2027",
+      "subject": "摘要周六截止",
+      "summary": "海报或短报告，250 词。",
+      "received": "2026-11-16T12:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "助教",
+      "from": "Prof. Grace Osei",
+      "subject": "期中成绩 18 点前",
+      "summary": "按之前说的方式调分。",
+      "action": "上传成绩",
+      "received": "2026-11-17T02:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "助教",
+      "from": "Bio 210 学生",
+      "subject": "第 4 题申请复核",
+      "summary": "希望重新看部分得分。",
+      "received": "2026-11-17T00:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "院系事务",
+      "from": "研究生秘书",
+      "subject": "资格考日期投票",
+      "summary": "一月的三个日期。",
+      "action": "今天投票",
+      "received": "2026-11-16T09:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "经费/奖学金",
+      "from": "研究生院",
+      "subject": "差旅资助开放申请",
+      "summary": "有报告的学生最多 800 美元。",
+      "received": "2026-11-16T14:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "讲座/通知",
+      "from": "神经科学项目",
+      "subject": "讲座：睡眠与记忆",
+      "summary": "周四 16 点，A 报告厅。",
+      "received": "2026-11-16T21:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "tracking": [
+    {
+      "type": "修改",
+      "item": "JNC-2026-0771",
+      "detail": "我们的论文 · 大修",
+      "status": "今天到期",
+      "state": "late",
+      "due": "2026-11-17T23:59:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "审稿",
+      "item": "CML-26-1180",
+      "detail": "钙成像分析流程",
+      "status": "邀请待回复",
+      "state": "waiting",
+      "due": "2026-11-20T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "摘要",
+      "item": "NeuroMeet 2027",
+      "detail": "海报",
+      "status": "撰写中",
+      "state": "active",
+      "due": "2026-11-21T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "资助",
+      "item": "差旅资助",
+      "detail": "",
+      "status": "未开始",
+      "state": "waiting",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "订单",
+      "item": "抗体",
+      "detail": "",
+      "status": "已送达",
+      "state": "done",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "pending_archive": [
+    {
+      "from": "LabSupply Co.",
+      "subject": "年底移液器促销",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Society eNews",
+      "subject": "11 月会员通讯",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "SciPublish",
+      "subject": "特刊征稿",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Webinar Hub",
+      "subject": "免费网课：成像技巧",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "CloudNote",
+      "subject": "升级 Pro",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "auto_archived": {
+    "today_total": 15,
+    "by_source": [
+      {
+        "source": "学术网站推送",
+        "count": 5
+      },
+      {
+        "source": "日程摘要",
+        "count": 3
+      },
+      {
+        "source": "社交通知",
+        "count": 3
+      },
+      {
+        "source": "订单收据",
+        "count": 2
+      },
+      {
+        "source": "过期验证码",
+        "count": 2
+      }
+    ]
+  },
+  "suspicious": [
+    {
+      "from": "editor@journal-neural-circuits.example",
+      "subject": "付版面费否则拒稿",
+      "reason": "仿冒期刊域名索要费用"
+    }
+  ],
+  "calendar_added": [
+    {
+      "title": "[截止] 海报摘要",
+      "when": "2026-11-21T17:00:00-08:00",
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-04T12:00:00-08:00",
+      "important": 8,
+      "other": 26
+    },
+    {
+      "date": "2026-11-05T12:00:00-08:00",
+      "important": 10,
+      "other": 24
+    },
+    {
+      "date": "2026-11-06T12:00:00-08:00",
+      "important": 6,
+      "other": 15
+    },
+    {
+      "date": "2026-11-07T12:00:00-08:00",
+      "important": 4,
+      "other": 11
+    },
+    {
+      "date": "2026-11-08T12:00:00-08:00",
+      "important": 9,
+      "other": 29
+    },
+    {
+      "date": "2026-11-09T12:00:00-08:00",
+      "important": 11,
+      "other": 25
+    },
+    {
+      "date": "2026-11-10T12:00:00-08:00",
+      "important": 8,
+      "other": 22
+    },
+    {
+      "date": "2026-11-11T12:00:00-08:00",
+      "important": 7,
+      "other": 27
+    },
+    {
+      "date": "2026-11-12T12:00:00-08:00",
+      "important": 10,
+      "other": 26
+    },
+    {
+      "date": "2026-11-13T12:00:00-08:00",
+      "important": 5,
+      "other": 14
+    },
+    {
+      "date": "2026-11-14T12:00:00-08:00",
+      "important": 3,
+      "other": 9
+    },
+    {
+      "date": "2026-11-15T12:00:00-08:00",
+      "important": 9,
+      "other": 31
+    },
+    {
+      "date": "2026-11-16T12:00:00-08:00",
+      "important": 12,
+      "other": 27
+    },
+    {
+      "date": "2026-11-17T12:00:00-08:00",
+      "important": 8,
+      "other": 12
+    }
+  ]
+}

@@ -7,7 +7,9 @@
   "use strict";
 
   const DATA_URL = "data/dashboard.json";
-  const DEMO_URL = { en: "data/demo.en.json", zh: "data/demo.zh.json" };
+  const PERSONAS = ["undergrad", "master", "phd"];
+  const PERSONA_KEY = "inboxpilot.persona";
+  const demoUrl = (p, l) => `data/demo.${p}.${l}.json`;
   const THEME_KEY = "inboxpilot.theme";
   const LANG_KEY = "inboxpilot.lang";
 
@@ -47,6 +49,7 @@
       trendEmpty: "The trend appears after a few days of data.", trendAria: "Mail per day over the last 14 days, important vs other",
       demoFail: "Couldn't load the demo data.", loadFail: "Couldn't load data. Refresh to try again.",
       otherCat: "Other",
+      personaLabel: "Demo as", personas: { undergrad: "Undergrad", master: "Master's", phd: "PhD" },
     },
     zh: {
       skip: "跳到内容", title: "邮件看板", demoFlag: "演示数据", themeAria: "切换深浅色",
@@ -82,6 +85,7 @@
       trendEmpty: "数据积累几天后这里会出现趋势。", trendAria: "近 14 天每日收件量，分重要和其他两类",
       demoFail: "演示数据加载失败。", loadFail: "数据加载失败，刷新页面再试一次。",
       otherCat: "其他",
+      personaLabel: "演示身份", personas: { undergrad: "本科生", master: "硕士", phd: "博士" },
     },
   };
 
@@ -99,6 +103,13 @@
     return (navigator.language || "").toLowerCase().startsWith("zh") ? "zh" : "en";
   }
   let lang = pickLang();
+  function pickPersona() {
+    const q = new URLSearchParams(location.search).get("persona");
+    if (PERSONAS.includes(q)) return q;
+    const saved = store.get(PERSONA_KEY);
+    return PERSONAS.includes(saved) ? saved : "master";
+  }
+  let persona = pickPersona();
   const T = () => I18N[lang];
 
   function applyStaticText() {
@@ -483,11 +494,23 @@
   /* ---------- flow ---------- */
   let current = null; // { data, demo }
 
+  function renderPersona() {
+    const box = $("#persona");
+    box.replaceChildren(el("span", { class: "persona-label", text: T().personaLabel }));
+    for (const p of PERSONAS) {
+      const b = el("button", { class: "tab", type: "button", "aria-pressed": String(p === persona), text: T().personas[p] });
+      b.addEventListener("click", () => { persona = p; store.set(PERSONA_KEY, p); mailCat = null; loadDemo(); });
+      box.append(b);
+    }
+  }
+
   function showApp(data, demo) {
     current = { data, demo };
     $("#empty").hidden = true;
     $("#app").hidden = false;
     $("#demo-flag").hidden = !demo;
+    $("#persona").hidden = !demo;
+    renderPersona();
     render(data);
   }
   function showEmpty(msg) {
@@ -513,7 +536,7 @@
 
   async function loadDemo() {
     try {
-      const raw = await fetchJSON(DEMO_URL[lang]);
+      const raw = await fetchJSON(demoUrl(persona, lang));
       // Anchor the demo to "now" so every countdown and the 7-day runway look live.
       const base = parseDate(raw.generated_at) || new Date();
       showApp(shiftDates(raw, Date.now() - 5 * 6e4 - base.getTime()), true);

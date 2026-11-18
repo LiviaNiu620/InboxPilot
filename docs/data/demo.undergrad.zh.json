@@ -1,0 +1,460 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-17T07:55:00-08:00",
+  "next_update": "2026-11-17T09:53:00-08:00",
+  "report_type": "morning",
+  "persona": "undergrad",
+  "labels": {
+    "todo": "InboxPilot/待办",
+    "pending": "InboxPilot/待归档",
+    "archived": "InboxPilot/已自动归档"
+  },
+  "category_order": [
+    "老师/助教",
+    "课程",
+    "教务/助学金",
+    "校内工作",
+    "社团",
+    "朋友/家人",
+    "校园通知"
+  ],
+  "stats": {
+    "inbox_total": 214,
+    "inbox_unread": 41,
+    "new_today": 19,
+    "todo_open": 6,
+    "pending_archive": 8,
+    "auto_archived_today": 23
+  },
+  "urgent": [
+    {
+      "title": "心理学导论实验报告截止",
+      "detail": "今晚 12 点前传到课程网站",
+      "category": "课程",
+      "due": "2026-11-17T23:59:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "提交助学金核验表",
+      "detail": "不交的话春季助学金会暂停",
+      "category": "教务/助学金",
+      "due": "2026-11-17T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "周四图书馆班要换吗？",
+      "detail": "主管今晚前要答复",
+      "category": "校内工作",
+      "due": "2026-11-17T20:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "todos": [
+    {
+      "title": "写完心理学实验报告",
+      "category": "课程",
+      "due": "2026-11-17T23:59:00-08:00",
+      "status": "open",
+      "source": "Psych 101",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "上传助学金核验表",
+      "category": "教务/助学金",
+      "due": "2026-11-17T17:00:00-08:00",
+      "status": "open",
+      "source": "助学金办公室",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "回复换班请求",
+      "category": "校内工作",
+      "due": "2026-11-17T20:00:00-08:00",
+      "status": "open",
+      "source": "图书馆前台",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "选春季课",
+      "category": "教务/助学金",
+      "due": "2026-11-19T09:00:00-08:00",
+      "status": "open",
+      "source": "教务处",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "交换项目申请文书",
+      "category": "教务/助学金",
+      "due": "2026-11-22T17:00:00-08:00",
+      "status": "open",
+      "source": "海外项目办公室",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "交机器人社团会费",
+      "category": "社团",
+      "status": "open",
+      "source": "Robotics Club",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "还逾期的图书",
+      "category": "校园通知",
+      "due": "2026-11-16T17:00:00-08:00",
+      "status": "overdue",
+      "source": "图书馆",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "预约统计课答疑",
+      "category": "课程",
+      "status": "done",
+      "source": "Stats 120",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "agenda": [
+    {
+      "start": "2026-11-17T09:00:00-08:00",
+      "title": "统计课",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T17:00:00-08:00",
+      "title": "助学金表",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T23:59:00-08:00",
+      "title": "心理学实验报告",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T11:00:00-08:00",
+      "title": "心理学导论",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T18:30:00-08:00",
+      "title": "机器人社团活动",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-19T09:00:00-08:00",
+      "title": "春季选课开放",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-19T15:00:00-08:00",
+      "title": "统计学习小组",
+      "type": "meeting",
+      "in_calendar": false,
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "start": "2026-11-20T10:00:00-08:00",
+      "title": "统计期中考",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-22T17:00:00-08:00",
+      "title": "交换项目文书",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-23T00:00:00-08:00",
+      "title": "感恩节假期开始",
+      "type": "meeting",
+      "all_day": true,
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "new_mail": [
+    {
+      "category": "老师/助教",
+      "from": "Prof. Hannah Kim",
+      "subject": "实验报告补充说明",
+      "summary": "图表可以放附录，正文还是 5 页上限。",
+      "received": "2026-11-17T04:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "老师/助教",
+      "from": "助教 Leo Martins",
+      "subject": "期中复习课改时间",
+      "summary": "改到周三 18 点，114 教室。",
+      "received": "2026-11-16T23:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "课程",
+      "from": "Stats 120",
+      "subject": "期中模拟题已发布",
+      "summary": "答案周四公布。",
+      "received": "2026-11-16T21:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "教务/助学金",
+      "from": "助学金办公室",
+      "subject": "需要处理：材料核验",
+      "summary": "春季助学金还缺一张表。",
+      "action": "17 点前上传",
+      "received": "2026-11-17T02:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "教务/助学金",
+      "from": "教务处",
+      "subject": "你的春季选课时间",
+      "summary": "周四 9 点开放。",
+      "action": "提前检查有没有选课限制",
+      "received": "2026-11-16T17:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "校内工作",
+      "from": "图书馆前台",
+      "subject": "周四 4–8 点有人换班吗？",
+      "summary": "Maya 点名问你。",
+      "action": "今晚回复",
+      "received": "2026-11-17T05:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "社团",
+      "from": "Robotics Club",
+      "subject": "社团活动 + 会费提醒",
+      "summary": "周三 18:30；会费 20 美元。",
+      "received": "2026-11-16T11:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "朋友/家人",
+      "from": "Mom",
+      "subject": "放假机票订了吗？",
+      "summary": "问你哪天回家。",
+      "action": "有空回复",
+      "received": "2026-11-17T01:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "校园通知",
+      "from": "校园安全",
+      "subject": "周五晚 Elm 街封路",
+      "summary": "无需操作。",
+      "received": "2026-11-16T20:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "校园通知",
+      "from": "餐饮中心",
+      "subject": "假期食堂时间",
+      "summary": "下周只开北区食堂。",
+      "received": "2026-11-16T15:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "tracking": [
+    {
+      "type": "申请",
+      "item": "春季交换项目",
+      "detail": "文书 + 1 封推荐信",
+      "status": "缺文书",
+      "state": "waiting",
+      "due": "2026-11-22T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "助学金",
+      "item": "春季助学金",
+      "detail": "",
+      "status": "暂停：缺表",
+      "state": "late",
+      "due": "2026-11-17T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "订单",
+      "item": "二手教材",
+      "detail": "Stats 120",
+      "status": "已发货",
+      "state": "active",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "工作",
+      "item": "暑期研究助理",
+      "detail": "心理系",
+      "status": "已投递",
+      "state": "active",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "pending_archive": [
+    {
+      "from": "Campus Store",
+      "subject": "卫衣本周七折",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Athletics",
+      "subject": "周六比赛学生票",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Foodly",
+      "subject": "本周末免配送费",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "StreamBox",
+      "subject": "学生套餐免费 3 个月",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Greek Life",
+      "subject": "冬季舞会门票",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "CloudNote",
+      "subject": "升级 Pro",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "SkyTrip",
+      "subject": "假期机票特价",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Campus Rec",
+      "subject": "新开动感单车课",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "auto_archived": {
+    "today_total": 23,
+    "by_source": [
+      {
+        "source": "社交通知",
+        "count": 9
+      },
+      {
+        "source": "课程平台推送",
+        "count": 6
+      },
+      {
+        "source": "订单收据",
+        "count": 4
+      },
+      {
+        "source": "过期验证码",
+        "count": 3
+      },
+      {
+        "source": "群聊摘要",
+        "count": 1
+      }
+    ]
+  },
+  "suspicious": [
+    {
+      "from": "payroll@campus-jobs-portal.example",
+      "subject": "立即更新工资账户",
+      "reason": "不是学校真正的发薪邮箱，要银行登录信息"
+    }
+  ],
+  "calendar_added": [
+    {
+      "title": "[截止] 春季选课",
+      "when": "2026-11-19T09:00:00-08:00",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "title": "[截止] 交换项目文书",
+      "when": "2026-11-22T17:00:00-08:00",
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-04T12:00:00-08:00",
+      "important": 5,
+      "other": 30
+    },
+    {
+      "date": "2026-11-05T12:00:00-08:00",
+      "important": 7,
+      "other": 26
+    },
+    {
+      "date": "2026-11-06T12:00:00-08:00",
+      "important": 4,
+      "other": 22
+    },
+    {
+      "date": "2026-11-07T12:00:00-08:00",
+      "important": 3,
+      "other": 15
+    },
+    {
+      "date": "2026-11-08T12:00:00-08:00",
+      "important": 6,
+      "other": 34
+    },
+    {
+      "date": "2026-11-09T12:00:00-08:00",
+      "important": 8,
+      "other": 29
+    },
+    {
+      "date": "2026-11-10T12:00:00-08:00",
+      "important": 5,
+      "other": 27
+    },
+    {
+      "date": "2026-11-11T12:00:00-08:00",
+      "important": 6,
+      "other": 31
+    },
+    {
+      "date": "2026-11-12T12:00:00-08:00",
+      "important": 9,
+      "other": 33
+    },
+    {
+      "date": "2026-11-13T12:00:00-08:00",
+      "important": 4,
+      "other": 18
+    },
+    {
+      "date": "2026-11-14T12:00:00-08:00",
+      "important": 2,
+      "other": 13
+    },
+    {
+      "date": "2026-11-15T12:00:00-08:00",
+      "important": 7,
+      "other": 36
+    },
+    {
+      "date": "2026-11-16T12:00:00-08:00",
+      "important": 8,
+      "other": 30
+    },
+    {
+      "date": "2026-11-17T12:00:00-08:00",
+      "important": 6,
+      "other": 13
+    }
+  ]
+}

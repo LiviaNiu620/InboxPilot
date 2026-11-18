@@ -1,0 +1,460 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-17T07:55:00-08:00",
+  "next_update": "2026-11-17T09:53:00-08:00",
+  "report_type": "morning",
+  "persona": "undergrad",
+  "labels": {
+    "todo": "InboxPilot/To-do",
+    "pending": "InboxPilot/Pending-archive",
+    "archived": "InboxPilot/Auto-archived"
+  },
+  "category_order": [
+    "Professors & TAs",
+    "Courses",
+    "Registrar & aid",
+    "Campus job",
+    "Clubs",
+    "Friends & family",
+    "Campus notices"
+  ],
+  "stats": {
+    "inbox_total": 214,
+    "inbox_unread": 41,
+    "new_today": 19,
+    "todo_open": 6,
+    "pending_archive": 8,
+    "auto_archived_today": 23
+  },
+  "urgent": [
+    {
+      "title": "Psych 101 lab report due",
+      "detail": "Upload to the course site before midnight",
+      "category": "Courses",
+      "due": "2026-11-17T23:59:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Submit financial-aid verification form",
+      "detail": "Aid for spring is on hold until it's in",
+      "category": "Registrar & aid",
+      "due": "2026-11-17T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Swap Thursday library shift?",
+      "detail": "Supervisor needs an answer by tonight",
+      "category": "Campus job",
+      "due": "2026-11-17T20:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Finish Psych 101 lab report",
+      "category": "Courses",
+      "due": "2026-11-17T23:59:00-08:00",
+      "status": "open",
+      "source": "Psych 101",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Upload aid verification form",
+      "category": "Registrar & aid",
+      "due": "2026-11-17T17:00:00-08:00",
+      "status": "open",
+      "source": "Financial Aid Office",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Answer shift-swap request",
+      "category": "Campus job",
+      "due": "2026-11-17T20:00:00-08:00",
+      "status": "open",
+      "source": "Library desk",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Register for spring classes",
+      "category": "Registrar & aid",
+      "due": "2026-11-19T09:00:00-08:00",
+      "status": "open",
+      "source": "Registrar",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Study-abroad application essay",
+      "category": "Registrar & aid",
+      "due": "2026-11-22T17:00:00-08:00",
+      "status": "open",
+      "source": "Global Programs",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Pay robotics club dues",
+      "category": "Clubs",
+      "status": "open",
+      "source": "Robotics Club",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Return overdue library book",
+      "category": "Campus notices",
+      "due": "2026-11-16T17:00:00-08:00",
+      "status": "overdue",
+      "source": "Library",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Sign up for stats office hours",
+      "category": "Courses",
+      "status": "done",
+      "source": "Stats 120",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "agenda": [
+    {
+      "start": "2026-11-17T09:00:00-08:00",
+      "title": "Stats 120 lecture",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T17:00:00-08:00",
+      "title": "Aid form",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T23:59:00-08:00",
+      "title": "Psych lab report",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T11:00:00-08:00",
+      "title": "Psych 101 lecture",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T18:30:00-08:00",
+      "title": "Robotics club build night",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-19T09:00:00-08:00",
+      "title": "Spring registration opens",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-19T15:00:00-08:00",
+      "title": "Study group — stats",
+      "type": "meeting",
+      "in_calendar": false,
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "start": "2026-11-20T10:00:00-08:00",
+      "title": "Stats midterm",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-22T17:00:00-08:00",
+      "title": "Study-abroad essay",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-23T00:00:00-08:00",
+      "title": "Thanksgiving break begins",
+      "type": "meeting",
+      "all_day": true,
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "new_mail": [
+    {
+      "category": "Professors & TAs",
+      "from": "Prof. Hannah Kim",
+      "subject": "Lab report: one clarification",
+      "summary": "Figures can go in an appendix; page limit stays at 5.",
+      "received": "2026-11-17T04:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Professors & TAs",
+      "from": "Leo Martins (TA)",
+      "subject": "Midterm review session moved",
+      "summary": "Now Wednesday 6 pm, Room 114.",
+      "received": "2026-11-16T23:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Courses",
+      "from": "Stats 120",
+      "subject": "Practice midterm posted",
+      "summary": "Solutions released Thursday.",
+      "received": "2026-11-16T21:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Registrar & aid",
+      "from": "Financial Aid Office",
+      "subject": "Action required: verification",
+      "summary": "One form missing for spring aid.",
+      "action": "Upload by 5 pm",
+      "received": "2026-11-17T02:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Registrar & aid",
+      "from": "Registrar",
+      "subject": "Your spring registration time",
+      "summary": "Window opens Thursday 9:00.",
+      "action": "Check holds before then",
+      "received": "2026-11-16T17:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Campus job",
+      "from": "Library desk",
+      "subject": "Can anyone swap Thu 4–8?",
+      "summary": "Maya asked you directly.",
+      "action": "Reply tonight",
+      "received": "2026-11-17T05:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Clubs",
+      "from": "Robotics Club",
+      "subject": "Build night + dues reminder",
+      "summary": "Wednesday 6:30; dues $20.",
+      "received": "2026-11-16T11:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Friends & family",
+      "from": "Mom",
+      "subject": "Flight for break?",
+      "summary": "Asking which day you fly home.",
+      "action": "Reply when you can",
+      "received": "2026-11-17T01:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Campus notices",
+      "from": "Campus Safety",
+      "subject": "Elm Street closed Friday night",
+      "summary": "No action.",
+      "received": "2026-11-16T20:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "Campus notices",
+      "from": "Dining Services",
+      "subject": "Holiday dining hours",
+      "summary": "Only North Hall open next week.",
+      "received": "2026-11-16T15:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "tracking": [
+    {
+      "type": "Application",
+      "item": "Study abroad · spring",
+      "detail": "Essay + 1 recommendation",
+      "status": "Essay missing",
+      "state": "waiting",
+      "due": "2026-11-22T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "Aid",
+      "item": "Spring financial aid",
+      "detail": "",
+      "status": "On hold — form missing",
+      "state": "late",
+      "due": "2026-11-17T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "Order",
+      "item": "Used textbook",
+      "detail": "Stats 120",
+      "status": "Shipped",
+      "state": "active",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "Job",
+      "item": "Summer RA position",
+      "detail": "Psych dept.",
+      "status": "Applied",
+      "state": "active",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "pending_archive": [
+    {
+      "from": "Campus Store",
+      "subject": "Hoodies 30% off this week",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Athletics",
+      "subject": "Student tickets for Saturday",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Foodly",
+      "subject": "Free delivery this weekend",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "StreamBox",
+      "subject": "Student plan: 3 months free",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Greek Life",
+      "subject": "Winter formal tickets",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "CloudNote",
+      "subject": "Upgrade to Pro",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "SkyTrip",
+      "subject": "Holiday flight deals",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Campus Rec",
+      "subject": "New spin classes",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "auto_archived": {
+    "today_total": 23,
+    "by_source": [
+      {
+        "source": "Social notifications",
+        "count": 9
+      },
+      {
+        "source": "Course-site digests",
+        "count": 6
+      },
+      {
+        "source": "Receipts",
+        "count": 4
+      },
+      {
+        "source": "Old login codes",
+        "count": 3
+      },
+      {
+        "source": "Group-chat digests",
+        "count": 1
+      }
+    ]
+  },
+  "suspicious": [
+    {
+      "from": "payroll@campus-jobs-portal.example",
+      "subject": "Update your direct deposit now",
+      "reason": "Not the real payroll sender; asks for bank login"
+    }
+  ],
+  "calendar_added": [
+    {
+      "title": "[Due] Spring registration",
+      "when": "2026-11-19T09:00:00-08:00",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "title": "[Due] Study-abroad essay",
+      "when": "2026-11-22T17:00:00-08:00",
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-04T12:00:00-08:00",
+      "important": 5,
+      "other": 30
+    },
+    {
+      "date": "2026-11-05T12:00:00-08:00",
+      "important": 7,
+      "other": 26
+    },
+    {
+      "date": "2026-11-06T12:00:00-08:00",
+      "important": 4,
+      "other": 22
+    },
+    {
+      "date": "2026-11-07T12:00:00-08:00",
+      "important": 3,
+      "other": 15
+    },
+    {
+      "date": "2026-11-08T12:00:00-08:00",
+      "important": 6,
+      "other": 34
+    },
+    {
+      "date": "2026-11-09T12:00:00-08:00",
+      "important": 8,
+      "other": 29
+    },
+    {
+      "date": "2026-11-10T12:00:00-08:00",
+      "important": 5,
+      "other": 27
+    },
+    {
+      "date": "2026-11-11T12:00:00-08:00",
+      "important": 6,
+      "other": 31
+    },
+    {
+      "date": "2026-11-12T12:00:00-08:00",
+      "important": 9,
+      "other": 33
+    },
+    {
+      "date": "2026-11-13T12:00:00-08:00",
+      "important": 4,
+      "other": 18
+    },
+    {
+      "date": "2026-11-14T12:00:00-08:00",
+      "important": 2,
+      "other": 13
+    },
+    {
+      "date": "2026-11-15T12:00:00-08:00",
+      "important": 7,
+      "other": 36
+    },
+    {
+      "date": "2026-11-16T12:00:00-08:00",
+      "important": 8,
+      "other": 30
+    },
+    {
+      "date": "2026-11-17T12:00:00-08:00",
+      "important": 6,
+      "other": 13
+    }
+  ]
+}
