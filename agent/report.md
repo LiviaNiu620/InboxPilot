@@ -18,77 +18,77 @@ bold). Each item links to the Gmail thread. Write in the user's language.
 Quick updates: only sections with something new. If nothing important arrived: a single line
 ("Nothing new that needs you. 6 archived.").
 
-## English example (fictional master's student)
+## English example (fictional PhD student)
 
 ```
 [InboxPilot] Morning report · Tue Nov 17 · 3 need action
 
 NEEDS YOU TODAY
-• Finish Kestrel AI online assessment — link expires tonight 23:59
-• Pick a phone-screen slot with Brightline (Wed 10:00 / Thu 14:00) — reply by 18:00
-• Send cleaned capstone dataset to Dr. Singh — by Wed noon
+• Return revised manuscript JNC-2026-0771 — revision window closes tonight 23:59
+• Post Bio 210 midterm grades — by 18:00
+• Vote in the qualifying-exam date poll — closes 17:00
 
 TO-DOS (7 open · 1 overdue)
-! Internship CPT form — 1 day overdue
-• ML homework 6 — Fri 23:59
-• Update resume for career fair — Sat 09:00
+! Animal-protocol training renewal — 2 days overdue
+• Book confocal microscope time — tomorrow 12:00
+• Poster abstract for NeuroMeet 2027 — Sat 17:00
 …
 
 NEW MAIL
-Interviews
-• Orbitly — final round Monday 1 pm, three 45-min interviews incl. a case
-Applications
-• Vantage Retail — not moving forward (no action)
-Personal
-• Ken Liu — offers a referral at Brightline → send him your resume
+Advisor & lab
+• Prof. David Morales — response letter looks good, two small edits for reviewer 2 → submit tonight
+Collaborators
+• Dr. Tomas Berg — asks for a colour-blind-safe palette in figure 3 → send updated figure
+Papers & journals
+• Cell Methods Letters — invitation to review CML-26-1180, 14-day window → accept or decline
 …
 
 NEXT 7 DAYS
-Wed 10:00 Brightline phone screen (not in calendar) · Thu 15:00 Capstone check-in · Sat 10:00 Tech career fair
+Wed 09:30 Lab meeting · Wed 14:00 Microscope session (not in calendar) · Thu 16:00 Neuro seminar · Sat Poster abstract due
 
-WAITING FOR YOUR APPROVAL (6) — remove “InboxPilot/Pending-archive” to keep
-CodePrep Pro · JobBoard Weekly · Campus Store · DataCon 2027 · Foodly · CloudNote
+WAITING FOR YOUR APPROVAL (5) — remove “InboxPilot/Pending-archive” to keep
+LabSupply Co. · Society eNews · SciPublish · Webinar Hub · CloudNote
 
-ARCHIVED FOR YOU (31)
-Job alerts 12 · Social 8 · Application auto-replies 5 · Receipts 3 · Login codes 3
+ARCHIVED FOR YOU (15)
+Research-site digests 5 · Calendar digests 3 · Social 3 · Receipts 2 · Login codes 2
 
 ⚠ SUSPICIOUS
-hr-team@brightline-careers.example — "Offer letter — pay $85 for equipment" — fake recruiter domain asking for money. Not archived; don't click.
+editor@journal-neural-circuits.example — "Pay APC to avoid rejection" — look-alike journal domain asking for money. Not archived; don't click.
 
 Next update 09:53 · To change a rule, just tell Claude.
 ```
 
-## 中文示例（虚构的本科生）
+## 中文示例（虚构的博士生）
 
 ```
 [InboxPilot] 晨报 · 11月17日 周二 · 3 件要处理
 
 今天必须处理
-• 心理学导论实验报告 — 今晚 23:59 截止
-• 提交助学金核验表 — 17:00 前，不交春季助学金会暂停
-• 回复周四图书馆换班 — 今晚前
+• 向《神经环路》返回修改稿 JNC-2026-0771 — 今晚 23:59 截止
+• 上传 Bio 210 期中成绩 — 18:00 前
+• 资格考日期投票 — 17:00 截止
 
-待办（6 项 · 1 项逾期）
-! 还逾期的图书 — 逾期 1 天
-• 春季选课 — 周四 9:00 开放
-• 交换项目申请文书 — 周日 17:00
+待办（7 项 · 1 项逾期）
+! 动物实验培训续期 — 逾期 2 天
+• 预约共聚焦显微镜机时 — 明天 12:00
+• NeuroMeet 2027 海报摘要 — 周六 17:00
 …
 
 新邮件
-老师/助教
-• Hannah Kim 教授 — 图表可以放附录，正文还是 5 页上限
-朋友/家人
-• 妈妈 — 问你哪天回家 → 有空回复
+导师/实验室
+• Morales 教授 — 回复信没问题，审稿人 2 那里改两处 → 今晚提交
+合作者
+• Tomas Berg — 图 3 换成色盲友好配色 → 发新版图
 …
 
-等你批准归档（8）— 想保留就去掉“InboxPilot/待归档”标签
-Campus Store · Athletics · Foodly · StreamBox · …
+等你批准归档（5）— 想保留就去掉“InboxPilot/待归档”标签
+LabSupply Co. · Society eNews · SciPublish · Webinar Hub · CloudNote
 
-已帮你归档（23）
-社交通知 9 · 课程平台推送 6 · 订单收据 4 · 验证码 3 · 群聊摘要 1
+已帮你归档（15）
+学术网站推送 5 · 日程摘要 3 · 社交通知 3 · 订单收据 2 · 验证码 2
 
 ⚠ 可疑邮件
-payroll@campus-jobs-portal.example —“立即更新工资账户”— 不是学校真正的发薪邮箱，要银行登录信息，没归档，别点。
+editor@journal-neural-circuits.example —“付版面费否则拒稿”— 仿冒期刊域名索要费用，没归档，别点。
 
 下次更新 09:53 · 想改规则，直接跟 Claude 说。
 ```

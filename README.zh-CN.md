@@ -12,7 +12,7 @@
 
 <img src="docs/screenshots/dashboard-zh.png" alt="InboxPilot 邮件看板（虚构演示数据）" width="900">
 
-<sub>截图中的所有内容都是虚构的演示数据。在线演示可以切换本科生、硕士、博士三种身份。</sub>
+<sub>截图中的所有内容都是虚构的演示数据。</sub>
 
 </div>
 
@@ -73,7 +73,7 @@ flowchart LR
 |---|---|---|
 | **A** 直接归档 + 告知 | 归档并打“已自动归档”标签，报告里计数 | 社交通知、职位推送、旧收据、过期验证码 |
 | **B** 等批准再归档 | 打“待归档”标签留在收件箱，晚报时归档 | 促销、广告、群发 newsletter |
-| **C** 保留 + 报告 | 保留，报告里完整一行，需要行动加“待办” | 老师、导师、老板、招聘方、助学金、真人来信、会议邀请 |
+| **C** 保留 + 报告 | 保留，报告里完整一行，需要行动加“待办” | 导师、老板、合作者、招聘方、事务表格、真人来信、会议邀请 |
 | **D** 保留，一行带过 | 保留，报告里一行 | 学校/公司通知、不需要行动的资讯 |
 
 你的规则就是一个 Markdown 文件，配置时 Claude 和你一起填好（[模板](agent/rules.template.md)）。
@@ -95,7 +95,7 @@ InboxPilot 刻意保守（[完整规则](agent/safety.md)）：
 
 `docs/` 是一个静态网页，显示 agent 写入的 `data/dashboard.json`：今天必须处理（带倒计时）、
 未来 7 天截止跑道、待办、分类新邮件、进度追踪（审稿、求职、订单……）、等你批准的、
-已归档的、近 14 天趋势。中英文切换、深浅色、手机可用。演示里有三个虚构身份：[本科生](https://livianiu620.github.io/InboxPilot/?lang=zh&demo&persona=undergrad)、[硕士](https://livianiu620.github.io/InboxPilot/?lang=zh&demo&persona=master)、[博士](https://livianiu620.github.io/InboxPilot/?lang=zh&demo&persona=phd)。
+已归档的、近 14 天趋势。中英文切换、深浅色、手机可用。
 
 因为里面是真实邮件摘要，你自己的看板必须**私密部署**（比如 Cloudflare Pages + Cloudflare
 Access），Claude 会一步步带你做，见 [`agent/dashboard.md`](agent/dashboard.md)。

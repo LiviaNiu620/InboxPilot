@@ -3,21 +3,20 @@
   "generated_at": "2026-11-17T07:55:00-08:00",
   "next_update": "2026-11-17T09:53:00-08:00",
   "report_type": "morning",
-  "persona": "phd",
   "labels": {
-    "todo": "InboxPilot/To-do",
-    "pending": "InboxPilot/Pending-archive",
-    "archived": "InboxPilot/Auto-archived"
+    "todo": "InboxPilot/待办",
+    "pending": "InboxPilot/待归档",
+    "archived": "InboxPilot/已自动归档"
   },
   "category_order": [
-    "Advisor & lab",
-    "Collaborators",
-    "Papers & journals",
-    "Conferences",
-    "Teaching",
-    "Department",
-    "Funding",
-    "Seminars & notices"
+    "导师/实验室",
+    "合作者",
+    "论文/期刊",
+    "会议",
+    "助教",
+    "院系事务",
+    "经费/奖学金",
+    "讲座/通知"
   ],
   "stats": {
     "inbox_total": 468,
@@ -29,286 +28,286 @@
   },
   "urgent": [
     {
-      "title": "Return revised manuscript to Journal of Neural Circuits",
-      "detail": "Revision window closes tonight",
-      "category": "Papers & journals",
+      "title": "向《神经环路》返回修改稿",
+      "detail": "修改期限今晚截止",
+      "category": "论文/期刊",
       "due": "2026-11-17T23:59:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "title": "Post Bio 210 midterm grades",
-      "detail": "Professor wants them before section tomorrow",
-      "category": "Teaching",
+      "title": "上传 Bio 210 期中成绩",
+      "detail": "教授要求明天讨论课前上传",
+      "category": "助教",
       "due": "2026-11-17T18:00:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "title": "Confirm qualifying-exam date",
-      "detail": "Committee poll closes today",
-      "category": "Department",
+      "title": "确认资格考日期",
+      "detail": "委员会投票今天截止",
+      "category": "院系事务",
       "due": "2026-11-17T17:00:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     }
   ],
   "todos": [
     {
-      "title": "Submit revision + response letter",
-      "category": "Papers & journals",
+      "title": "提交修改稿和回复信",
+      "category": "论文/期刊",
       "due": "2026-11-17T23:59:00-08:00",
       "status": "open",
-      "source": "Journal of Neural Circuits",
+      "source": "《神经环路》",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "title": "Upload Bio 210 grades",
-      "category": "Teaching",
+      "title": "上传 Bio 210 成绩",
+      "category": "助教",
       "due": "2026-11-17T18:00:00-08:00",
       "status": "open",
       "source": "Prof. Grace Osei",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "title": "Vote in quals date poll",
-      "category": "Department",
+      "title": "资格考日期投票",
+      "category": "院系事务",
       "due": "2026-11-17T17:00:00-08:00",
       "status": "open",
-      "source": "Grad coordinator",
+      "source": "研究生秘书",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "title": "Book confocal microscope time",
-      "category": "Advisor & lab",
+      "title": "预约共聚焦显微镜机时",
+      "category": "导师/实验室",
       "due": "2026-11-18T12:00:00-08:00",
       "status": "open",
-      "source": "Lab manager",
+      "source": "实验室管理员",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "title": "Poster abstract for neuroscience meeting",
-      "category": "Conferences",
+      "title": "神经科学年会海报摘要",
+      "category": "会议",
       "due": "2026-11-21T17:00:00-08:00",
       "status": "open",
       "source": "NeuroMeet 2027",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "title": "Send co-author the new figure 3",
-      "category": "Collaborators",
+      "title": "给合作者发新版图 3",
+      "category": "合作者",
       "status": "open",
       "source": "Dr. Tomas Berg",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "title": "Animal-protocol training renewal",
-      "category": "Department",
+      "title": "动物实验培训续期",
+      "category": "院系事务",
       "due": "2026-11-15T17:00:00-08:00",
       "status": "overdue",
-      "source": "Research compliance",
+      "source": "科研合规办公室",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "title": "Order antibodies",
-      "category": "Advisor & lab",
+      "title": "订抗体",
+      "category": "导师/实验室",
       "status": "done",
-      "source": "Lab manager",
+      "source": "实验室管理员",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     }
   ],
   "agenda": [
     {
       "start": "2026-11-17T11:00:00-08:00",
-      "title": "Bio 210 section (TA)",
+      "title": "Bio 210 讨论课（助教）",
       "type": "class",
       "link": "https://calendar.google.com/calendar/r"
     },
     {
       "start": "2026-11-17T17:00:00-08:00",
-      "title": "Quals poll",
+      "title": "资格考投票",
       "type": "deadline",
       "link": "https://calendar.google.com/calendar/r"
     },
     {
       "start": "2026-11-17T23:59:00-08:00",
-      "title": "Manuscript revision",
+      "title": "论文修改稿",
       "type": "deadline",
       "link": "https://calendar.google.com/calendar/r"
     },
     {
       "start": "2026-11-18T09:30:00-08:00",
-      "title": "Lab meeting",
+      "title": "组会",
       "type": "meeting",
       "link": "https://calendar.google.com/calendar/r"
     },
     {
       "start": "2026-11-18T14:00:00-08:00",
-      "title": "Microscope session",
+      "title": "显微镜机时",
       "type": "meeting",
       "in_calendar": false,
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
       "start": "2026-11-19T16:00:00-08:00",
-      "title": "Neuro seminar",
+      "title": "神经科学讲座",
       "type": "meeting",
       "link": "https://calendar.google.com/calendar/r"
     },
     {
       "start": "2026-11-20T11:00:00-08:00",
-      "title": "Bio 210 section (TA)",
+      "title": "Bio 210 讨论课（助教）",
       "type": "class",
       "link": "https://calendar.google.com/calendar/r"
     },
     {
       "start": "2026-11-21T17:00:00-08:00",
-      "title": "Poster abstract",
+      "title": "海报摘要",
       "type": "deadline",
       "link": "https://calendar.google.com/calendar/r"
     },
     {
       "start": "2026-11-22T10:00:00-08:00",
-      "title": "1:1 with Prof. Morales",
+      "title": "和 Morales 教授 1:1",
       "type": "meeting",
       "link": "https://calendar.google.com/calendar/r"
     }
   ],
   "new_mail": [
     {
-      "category": "Advisor & lab",
+      "category": "导师/实验室",
       "from": "Prof. David Morales",
-      "subject": "Response letter looks good",
-      "summary": "Two small edits to reviewer 2; then submit.",
-      "action": "Submit tonight",
+      "subject": "回复信没问题",
+      "summary": "回复审稿人 2 的地方改两处就可以提交。",
+      "action": "今晚提交",
       "received": "2026-11-17T05:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Advisor & lab",
-      "from": "Lab manager",
-      "subject": "Confocal booking for Wednesday",
-      "summary": "Two slots left; first come first served.",
-      "action": "Book by tomorrow noon",
+      "category": "导师/实验室",
+      "from": "实验室管理员",
+      "subject": "周三共聚焦显微镜预约",
+      "summary": "只剩两个时段，先到先得。",
+      "action": "明天中午前预约",
       "received": "2026-11-16T22:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Collaborators",
+      "category": "合作者",
       "from": "Dr. Tomas Berg",
-      "subject": "Figure 3 colours",
-      "summary": "Asks for a colour-blind-safe palette.",
-      "action": "Send updated figure",
+      "subject": "图 3 配色",
+      "summary": "希望换成色盲友好的配色。",
+      "action": "发新版图",
       "received": "2026-11-16T19:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Papers & journals",
-      "from": "Journal of Neural Circuits",
-      "subject": "Reminder: revision due",
+      "category": "论文/期刊",
+      "from": "《神经环路》",
+      "subject": "提醒：修改稿到期",
       "summary": "JNC-2026-0771",
-      "action": "Submit tonight",
+      "action": "今晚提交",
       "received": "2026-11-17T03:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Papers & journals",
-      "from": "Cell Methods Letters",
-      "subject": "Invitation to review",
-      "summary": "Calcium-imaging pipeline; 14-day window.",
-      "action": "Accept or decline",
+      "category": "论文/期刊",
+      "from": "《细胞方法快报》",
+      "subject": "审稿邀请",
+      "summary": "钙成像分析流程，审稿期 14 天。",
+      "action": "接受或拒绝",
       "received": "2026-11-16T16:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Conferences",
+      "category": "会议",
       "from": "NeuroMeet 2027",
-      "subject": "Abstract submission closes Saturday",
-      "summary": "Poster or short talk; 250 words.",
+      "subject": "摘要周六截止",
+      "summary": "海报或短报告，250 词。",
       "received": "2026-11-16T12:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Teaching",
+      "category": "助教",
       "from": "Prof. Grace Osei",
-      "subject": "Midterm grades by 6 pm",
-      "summary": "Use the curve we discussed.",
-      "action": "Upload grades",
+      "subject": "期中成绩 18 点前",
+      "summary": "按之前说的方式调分。",
+      "action": "上传成绩",
       "received": "2026-11-17T02:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Teaching",
-      "from": "Student (Bio 210)",
-      "subject": "Regrade request Q4",
-      "summary": "Asks to look at partial credit.",
+      "category": "助教",
+      "from": "Bio 210 学生",
+      "subject": "第 4 题申请复核",
+      "summary": "希望重新看部分得分。",
       "received": "2026-11-17T00:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Department",
-      "from": "Grad coordinator",
-      "subject": "Quals date poll",
-      "summary": "Three dates in January.",
-      "action": "Vote today",
+      "category": "院系事务",
+      "from": "研究生秘书",
+      "subject": "资格考日期投票",
+      "summary": "一月的三个日期。",
+      "action": "今天投票",
       "received": "2026-11-16T09:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Funding",
-      "from": "Graduate School",
-      "subject": "Travel grant applications open",
-      "summary": "Up to $800 for presenting students.",
+      "category": "经费/奖学金",
+      "from": "研究生院",
+      "subject": "差旅资助开放申请",
+      "summary": "有报告的学生最多 800 美元。",
       "received": "2026-11-16T14:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "category": "Seminars & notices",
-      "from": "Neuro program",
-      "subject": "Seminar: sleep and memory",
-      "summary": "Thursday 4 pm, Auditorium A.",
+      "category": "讲座/通知",
+      "from": "神经科学项目",
+      "subject": "讲座：睡眠与记忆",
+      "summary": "周四 16 点，A 报告厅。",
       "received": "2026-11-16T21:55:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     }
   ],
   "tracking": [
     {
-      "type": "Revision",
+      "type": "修改",
       "item": "JNC-2026-0771",
-      "detail": "Our paper · major revision",
-      "status": "Due today",
+      "detail": "我们的论文 · 大修",
+      "status": "今天到期",
       "state": "late",
       "due": "2026-11-17T23:59:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "type": "Review",
+      "type": "审稿",
       "item": "CML-26-1180",
-      "detail": "Calcium-imaging pipeline",
-      "status": "Invitation — reply needed",
+      "detail": "钙成像分析流程",
+      "status": "邀请待回复",
       "state": "waiting",
       "due": "2026-11-20T17:00:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "type": "Abstract",
+      "type": "摘要",
       "item": "NeuroMeet 2027",
-      "detail": "Poster",
-      "status": "Drafting",
+      "detail": "海报",
+      "status": "撰写中",
       "state": "active",
       "due": "2026-11-21T17:00:00-08:00",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "type": "Grant",
-      "item": "Travel grant",
+      "type": "资助",
+      "item": "差旅资助",
       "detail": "",
-      "status": "Not started",
+      "status": "未开始",
       "state": "waiting",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
-      "type": "Order",
-      "item": "Antibodies",
+      "type": "订单",
+      "item": "抗体",
       "detail": "",
-      "status": "Delivered",
+      "status": "已送达",
       "state": "done",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     }
@@ -316,27 +315,27 @@
   "pending_archive": [
     {
       "from": "LabSupply Co.",
-      "subject": "Year-end pipette sale",
+      "subject": "年底移液器促销",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
       "from": "Society eNews",
-      "subject": "November member digest",
+      "subject": "11 月会员通讯",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
       "from": "SciPublish",
-      "subject": "Call for papers (special issue)",
+      "subject": "特刊征稿",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
       "from": "Webinar Hub",
-      "subject": "Free webinar: imaging tips",
+      "subject": "免费网课：成像技巧",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     },
     {
       "from": "CloudNote",
-      "subject": "Upgrade to Pro",
+      "subject": "升级 Pro",
       "link": "https://mail.google.com/mail/u/0/#inbox"
     }
   ],
@@ -344,23 +343,23 @@
     "today_total": 15,
     "by_source": [
       {
-        "source": "Research-site digests",
+        "source": "学术网站推送",
         "count": 5
       },
       {
-        "source": "Calendar digests",
+        "source": "日程摘要",
         "count": 3
       },
       {
-        "source": "Social notifications",
+        "source": "社交通知",
         "count": 3
       },
       {
-        "source": "Receipts",
+        "source": "订单收据",
         "count": 2
       },
       {
-        "source": "Old login codes",
+        "source": "过期验证码",
         "count": 2
       }
     ]
@@ -368,13 +367,13 @@
   "suspicious": [
     {
       "from": "editor@journal-neural-circuits.example",
-      "subject": "Pay APC to avoid rejection",
-      "reason": "Look-alike journal domain asking for payment"
+      "subject": "付版面费否则拒稿",
+      "reason": "仿冒期刊域名索要费用"
     }
   ],
   "calendar_added": [
     {
-      "title": "[Due] Poster abstract",
+      "title": "[截止] 海报摘要",
       "when": "2026-11-21T17:00:00-08:00",
       "link": "https://calendar.google.com/calendar/r"
     }
