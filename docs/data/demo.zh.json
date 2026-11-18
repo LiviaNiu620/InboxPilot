@@ -1,0 +1,515 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-17T07:55:00-08:00",
+  "next_update": "2026-11-17T09:53:00-08:00",
+  "report_type": "morning",
+  "labels": {
+    "todo": "InboxPilot/待办",
+    "pending": "InboxPilot/待归档",
+    "archived": "InboxPilot/已自动归档"
+  },
+  "category_order": [
+    "导师/合作者",
+    "学校·与我相关",
+    "学校·事务",
+    "审稿",
+    "投稿/会议",
+    "求职",
+    "课程",
+    "真人来信",
+    "学校通知"
+  ],
+  "stats": {
+    "inbox_total": 386,
+    "inbox_unread": 29,
+    "new_today": 24,
+    "todo_open": 7,
+    "pending_archive": 6,
+    "auto_archived_today": 17
+  },
+  "urgent": [
+    {
+      "title": "提交《城市出行学报》审稿意见",
+      "detail": "稿件 JUM-2026-0418，今晚截止",
+      "category": "审稿",
+      "due": "2026-11-17T23:59:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "给 Rivera 教授发周进度",
+      "detail": "她想在组会前看到收敛曲线",
+      "category": "导师/合作者",
+      "due": "2026-11-17T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "确认 Northwind Labs 电话面试时间",
+      "detail": "招聘方给了周四 10 点或周五 14 点",
+      "category": "求职",
+      "due": "2026-11-17T20:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "todos": [
+    {
+      "title": "提交 JUM-2026-0418 审稿意见",
+      "category": "审稿",
+      "due": "2026-11-17T23:59:00-08:00",
+      "status": "open",
+      "source": "审稿系统",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "回复 Rivera 教授进度",
+      "category": "导师/合作者",
+      "due": "2026-11-17T17:00:00-08:00",
+      "status": "open",
+      "source": "Prof. Rivera",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "选电话面试时间",
+      "category": "求职",
+      "due": "2026-11-17T20:00:00-08:00",
+      "status": "open",
+      "source": "Northwind Labs",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "更新税务协定表",
+      "category": "学校·事务",
+      "due": "2026-11-18T17:00:00-08:00",
+      "status": "open",
+      "source": "国际学生办公室",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "Fellowship 申请：上传个人陈述",
+      "category": "学校·与我相关",
+      "due": "2026-11-20T17:00:00-08:00",
+      "status": "open",
+      "source": "研究生院",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "院系年终聚会 RSVP",
+      "category": "学校·事务",
+      "due": "2026-11-23T12:00:00-08:00",
+      "status": "open",
+      "source": "院系秘书",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "回复 Mia 关于读书会的问题",
+      "category": "真人来信",
+      "status": "open",
+      "source": "Mia Park",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "预约实验室安全培训",
+      "category": "学校·事务",
+      "due": "2026-11-15T17:00:00-08:00",
+      "status": "overdue",
+      "source": "EHS",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "title": "提交差旅报销",
+      "category": "投稿/会议",
+      "status": "done",
+      "source": "院系财务",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "agenda": [
+    {
+      "start": "2026-11-17T10:00:00-08:00",
+      "title": "优化课",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T17:00:00-08:00",
+      "title": "给导师发进度",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-17T23:59:00-08:00",
+      "title": "JUM 审稿",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T13:30:00-08:00",
+      "title": "组会",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-18T17:00:00-08:00",
+      "title": "税务协定表",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-19T10:00:00-08:00",
+      "title": "Northwind 电话面试",
+      "type": "meeting",
+      "in_calendar": false,
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "start": "2026-11-19T15:00:00-08:00",
+      "title": "优化课",
+      "type": "class",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-20T17:00:00-08:00",
+      "title": "Fellowship 陈述",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-21T11:00:00-08:00",
+      "title": "和合作者 1:1",
+      "type": "meeting",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-22T00:00:00-08:00",
+      "title": "会议摘要截止",
+      "type": "deadline",
+      "all_day": true,
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "start": "2026-11-23T12:00:00-08:00",
+      "title": "年终聚会 RSVP",
+      "type": "deadline",
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "new_mail": [
+    {
+      "category": "导师/合作者",
+      "from": "Prof. Elena Rivera",
+      "subject": "周四前能看到图吗？",
+      "summary": "想看均衡模型的收敛曲线，再附一段总结。",
+      "action": "今天 17 点前回复",
+      "received": "2026-11-17T05:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "导师/合作者",
+      "from": "Dr. Sam Okafor",
+      "subject": "共享稿：第 4 节意见",
+      "summary": "在实验部分留了 12 条意见，其中两条需要重跑。",
+      "action": "周五 1:1 前看完",
+      "received": "2026-11-16T22:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "学校·与我相关",
+      "from": "研究生院",
+      "subject": "你的 Fellowship 申请还缺材料",
+      "summary": "缺个人陈述，系统 3 天后关闭。",
+      "action": "上传个人陈述",
+      "received": "2026-11-17T02:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "学校·事务",
+      "from": "国际学生办公室",
+      "subject": "需要处理：税务协定续期",
+      "summary": "2027 税务年度的年度续期。",
+      "action": "明天前填完",
+      "received": "2026-11-16T20:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "审稿",
+      "from": "城市出行学报",
+      "subject": "提醒：审稿今天到期",
+      "summary": "JUM-2026-0418",
+      "action": "今晚提交",
+      "received": "2026-11-17T04:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "审稿",
+      "from": "交通系统快报",
+      "subject": "审稿邀请 TSL-26-0932",
+      "summary": "混合交通信号控制，审稿期 21 天。",
+      "action": "周五前接受或拒绝",
+      "received": "2026-11-16T17:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "投稿/会议",
+      "from": "2027 出行系统会议",
+      "subject": "摘要 5 天后截止",
+      "summary": "两页扩展摘要，周日截止。",
+      "received": "2026-11-16T13:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "求职",
+      "from": "Jordan Lee · Northwind Labs",
+      "subject": "下一步：30 分钟电话面试",
+      "summary": "数据科学实习岗，周四 10 点或周五 14 点。",
+      "action": "选一个时间",
+      "received": "2026-11-17T03:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "求职",
+      "from": "Bluepeak Analytics",
+      "subject": "感谢投递",
+      "summary": "已收到申请，无需操作。",
+      "received": "2026-11-16T11:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "课程",
+      "from": "优化课（秋季）",
+      "subject": "第 7 次作业已发布",
+      "summary": "下周三交；答疑改到 210 教室。",
+      "received": "2026-11-17T00:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "真人来信",
+      "from": "Mia Park",
+      "subject": "这周读书会吗？",
+      "summary": "问你周四能不能带讨论。",
+      "action": "有空回复",
+      "received": "2026-11-17T01:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "学校通知",
+      "from": "校园安全",
+      "subject": "Elm 街临时封路",
+      "summary": "周五 18–22 点，无需操作。",
+      "received": "2026-11-16T21:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "category": "学校通知",
+      "from": "院系通讯",
+      "subject": "讲座：拥堵网络中的均衡",
+      "summary": "周三 16 点，B 厅。",
+      "received": "2026-11-16T15:55:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "tracking": [
+    {
+      "type": "审稿",
+      "item": "JUM-2026-0418",
+      "detail": "网约车的均衡定价",
+      "status": "今天到期",
+      "state": "late",
+      "due": "2026-11-17T23:59:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "审稿",
+      "item": "TSL-26-0932",
+      "detail": "混合交通信号控制",
+      "status": "邀请待回复",
+      "state": "waiting",
+      "due": "2026-11-20T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "投稿",
+      "item": "论文：联盟路径选择",
+      "detail": "《网络经济评论》",
+      "status": "在审 · 第 41 天",
+      "state": "active",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "求职",
+      "item": "Northwind Labs",
+      "detail": "数据科学实习",
+      "status": "电话面试",
+      "state": "waiting",
+      "due": "2026-11-19T10:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "求职",
+      "item": "Bluepeak Analytics",
+      "detail": "研究实习",
+      "status": "已投递",
+      "state": "active",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "type": "Fellowship",
+      "item": "研究生奖学金",
+      "detail": "",
+      "status": "缺个人陈述",
+      "state": "waiting",
+      "due": "2026-11-20T17:00:00-08:00",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "pending_archive": [
+    {
+      "from": "Campus Store",
+      "subject": "黑五：卫衣七折",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Athletics",
+      "subject": "周六比赛门票开抢",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "MileHigh Rewards",
+      "subject": "你的积分即将过期",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Society eNews",
+      "subject": "11 月会员通讯",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "CloudNote",
+      "subject": "升级 Pro 省 40%",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    },
+    {
+      "from": "Foodly",
+      "subject": "本周末免配送费",
+      "link": "https://mail.google.com/mail/u/0/#inbox"
+    }
+  ],
+  "auto_archived": {
+    "today_total": 17,
+    "by_source": [
+      {
+        "source": "社交通知",
+        "count": 5
+      },
+      {
+        "source": "职位推送",
+        "count": 4
+      },
+      {
+        "source": "订单收据",
+        "count": 3
+      },
+      {
+        "source": "日程摘要",
+        "count": 2
+      },
+      {
+        "source": "过期验证码",
+        "count": 2
+      },
+      {
+        "source": "学术网站推送",
+        "count": 1
+      }
+    ]
+  },
+  "suspicious": [
+    {
+      "from": "it-helpdesk@northfield-help.example",
+      "subject": "你的邮箱将被关闭",
+      "reason": "仿冒发件人，要求重新输入密码"
+    }
+  ],
+  "calendar_added": [
+    {
+      "title": "[截止] 税务协定表",
+      "when": "2026-11-18T17:00:00-08:00",
+      "link": "https://calendar.google.com/calendar/r"
+    },
+    {
+      "title": "[截止] Fellowship 个人陈述",
+      "when": "2026-11-20T17:00:00-08:00",
+      "link": "https://calendar.google.com/calendar/r"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-04T12:00:00-08:00",
+      "important": 9,
+      "other": 31
+    },
+    {
+      "date": "2026-11-05T12:00:00-08:00",
+      "important": 12,
+      "other": 28
+    },
+    {
+      "date": "2026-11-06T12:00:00-08:00",
+      "important": 7,
+      "other": 19
+    },
+    {
+      "date": "2026-11-07T12:00:00-08:00",
+      "important": 5,
+      "other": 14
+    },
+    {
+      "date": "2026-11-08T12:00:00-08:00",
+      "important": 11,
+      "other": 35
+    },
+    {
+      "date": "2026-11-09T12:00:00-08:00",
+      "important": 14,
+      "other": 30
+    },
+    {
+      "date": "2026-11-10T12:00:00-08:00",
+      "important": 10,
+      "other": 27
+    },
+    {
+      "date": "2026-11-11T12:00:00-08:00",
+      "important": 8,
+      "other": 33
+    },
+    {
+      "date": "2026-11-12T12:00:00-08:00",
+      "important": 13,
+      "other": 29
+    },
+    {
+      "date": "2026-11-13T12:00:00-08:00",
+      "important": 6,
+      "other": 17
+    },
+    {
+      "date": "2026-11-14T12:00:00-08:00",
+      "important": 4,
+      "other": 12
+    },
+    {
+      "date": "2026-11-15T12:00:00-08:00",
+      "important": 12,
+      "other": 38
+    },
+    {
+      "date": "2026-11-16T12:00:00-08:00",
+      "important": 15,
+      "other": 31
+    },
+    {
+      "date": "2026-11-17T12:00:00-08:00",
+      "important": 9,
+      "other": 14
+    }
+  ]
+}

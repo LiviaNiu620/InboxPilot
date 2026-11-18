@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InboxPilot · Inbox Dashboard</title>
+  <meta name="description" content="InboxPilot — an open-source email agent for Claude. Daily digests, to-dos, deadlines and approval-gated archiving, on one page.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b6b45'/%3E%3Cpath d='M7 11l9 6 9-6M7 10h18v13H7z' fill='none' stroke='white' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+  <!-- No data yet -->
+  <section id="empty" class="lock" hidden>
+    <div class="lock-panel">
+      <h1 class="lock-title">InboxPilot</h1>
+      <p id="empty-hint" class="lock-hint" data-i18n="emptyHint">No data yet. It will appear after the first scheduled run.</p>
+      <button type="button" id="demo-btn" class="btn-primary" data-i18n="viewDemo">View demo data</button>
+    </div>
+  </section>
+
+  <div id="app" hidden>
+    <header class="topbar">
+      <div class="topbar-title">
+        <div class="brand">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#0b6b45"/><path d="M7 11l9 6 9-6M7 10h18v13H7z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>
+          <h1 data-i18n="title">Inbox Dashboard</h1>
+        </div>
+        <p id="meta" class="meta"></p>
+      </div>
+      <div class="topbar-actions">
+        <span id="demo-flag" class="demo-flag" hidden data-i18n="demoFlag">Demo data</span>
+        <button id="lang-btn" class="btn-ghost lang-btn" type="button" aria-label="Switch language">中文</button>
+        <button id="theme-btn" class="btn-ghost" type="button" data-i18n-aria="themeAria" aria-label="Toggle theme">Dark</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Must handle today -->
+      <section class="sign-row" aria-labelledby="sign-h">
+        <div class="sign">
+          <div class="sign-inner">
+            <h2 id="sign-h" class="sign-title" data-i18n="urgentTitle">Handle today</h2>
+            <ol id="urgent" class="sign-list"></ol>
+          </div>
+        </div>
+        <dl id="counts" class="counts"></dl>
+      </section>
+
+      <!-- Next 7 days -->
+      <section class="block" aria-labelledby="runway-h">
+        <div class="block-head">
+          <h2 id="runway-h" data-i18n="next7">Next 7 days</h2>
+          <p class="legend-inline"><span class="key key-deadline"></span><span data-i18n="deadline">Deadline</span> <span class="key key-meeting"></span><span data-i18n="meeting">Meeting</span> <span class="key key-class"></span><span data-i18n="class">Class</span></p>
+        </div>
+        <div id="runway" class="runway"></div>
+      </section>
+
+      <div class="split">
+        <section class="block" aria-labelledby="todo-h">
+          <div class="block-head">
+            <h2 id="todo-h" data-i18n="todos">To-dos</h2>
+            <p class="block-note" id="todo-note"></p>
+          </div>
+          <ul id="todos" class="todo-list"></ul>
+        </section>
+
+        <section class="block" aria-labelledby="mail-h">
+          <div class="block-head">
+            <h2 id="mail-h" data-i18n="newMail">New mail</h2>
+          </div>
+          <div id="mail-tabs" class="tabs" role="tablist" data-i18n-aria="mailTabsAria" aria-label="Mail categories"></div>
+          <ul id="mail-list" class="mail-list" role="tabpanel"></ul>
+        </section>
+      </div>
+
+      <section class="block" id="tracking-block" aria-labelledby="tracking-h">
+        <div class="block-head">
+          <h2 id="tracking-h" data-i18n="tracking">Tracking</h2>
+          <p class="block-note" data-i18n="trackingNote">Threads with a status and a deadline: reviews, applications, submissions, orders…</p>
+        </div>
+        <div class="table-wrap">
+          <table class="table" id="tracking">
+            <thead><tr><th scope="col" data-i18n="thType">Type</th><th scope="col" data-i18n="thItem">Item</th><th scope="col" data-i18n="thStatus">Status</th><th scope="col" data-i18n="thDue">Due</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="split">
+        <section class="block" aria-labelledby="pending-h">
+          <div class="block-head">
+            <h2 id="pending-h" data-i18n="pending">Waiting for your approval</h2>
+            <p class="block-note" id="pending-note"></p>
+          </div>
+          <ul id="pending" class="plain-list"></ul>
+        </section>
+
+        <section class="block" aria-labelledby="archived-h">
+          <div class="block-head">
+            <h2 id="archived-h" data-i18n="archived">Auto-archived today</h2>
+            <p id="archived-total" class="block-note"></p>
+          </div>
+          <div id="archived-chart" class="hbar-chart"></div>
+        </section>
+      </div>
+
+      <section class="block" aria-labelledby="trend-h">
+        <div class="block-head">
+          <h2 id="trend-h" data-i18n="trend">Mail volume, last 14 days</h2>
+          <p class="legend-inline"><span class="key key-s1"></span><span data-i18n="important">Important</span> <span class="key key-s2"></span><span data-i18n="other">Other</span></p>
+        </div>
+        <div id="trend" class="trend"></div>
+        <details class="data-table">
+          <summary data-i18n="showTable">Show data table</summary>
+          <div class="table-wrap"><table class="table" id="trend-table"><thead><tr><th scope="col" data-i18n="thDate">Date</th><th scope="col" data-i18n="important">Important</th><th scope="col" data-i18n="other">Other</th><th scope="col" data-i18n="total">Total</th></tr></thead><tbody></tbody></table></div>
+        </details>
+      </section>
+
+      <section class="block" id="suspicious-block" aria-labelledby="sus-h" hidden>
+        <div class="block-head">
+          <h2 id="sus-h" data-i18n="suspicious">Suspicious mail</h2>
+          <p class="block-note" data-i18n="suspiciousNote">Not archived — left for you to judge. Don't click links inside.</p>
+        </div>
+        <ul id="suspicious" class="plain-list"></ul>
+      </section>
+
+      <section class="block" id="calendar-block" aria-labelledby="cal-h" hidden>
+        <div class="block-head"><h2 id="cal-h" data-i18n="calAdded">Added to your calendar this run</h2></div>
+        <ul id="calendar-added" class="plain-list"></ul>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p><span data-i18n="footer">Updated by your InboxPilot agent on a schedule. All demo content is fictional.</span> · <a href="https://github.com/LiviaNiu620/InboxPilot" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </footer>
+  </div>
+
+  <div id="tooltip" class="tooltip" role="status" hidden></div>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
